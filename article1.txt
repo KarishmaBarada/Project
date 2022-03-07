@@ -1,0 +1,151 @@
+Scenarios which cant be automated:
+Only certain types of test cases can be automated. Subjective test cases — test cases that are not testing a clear function — will still need to be done manually.
+
+Here are some examples of test cases that cannot be automated:
+
+Exploratory tests
+UX tests
+UI tests
+API tests
+
+And that's okay. The point of creating automated test cases is to expand test coverage and help your testers test more in less time.
+
+While there are pleny of scenarios where test automation make sense,
+some test scenarios should never be automated through the browser using a tool such as Selenium WebDriver.
+
+
+    1. CAPTCHA
+CAPTCHA is short for "Completely Automated Public Turing test to tell Computers and Humans Apart."
+ It exists to prevent automation, so it's not even worth trying. Otherwise, it fails to be CAPTCHA, because it won’t be able to tell humans and computers apart.
+
+Two primary strategies exist to get around CAPTCHA checks during testing. They are as follows:
+
+Disable CAPTCHAs in your test environment. This could be a simple configuration in the software under test. Or this can even be a URL parameter that the test sets.
+Add a hook to allow tests to bypass the CAPTCHA.
+
+
+
+     4. File downloads
+It’s less than ideal to automate file downloads through UI because the API doesn't expose download progress.
+ Downloading files isn't considered an essential aspect of emulating user interaction with the web platform.
+
+Therefore, you should consider completing this workaround: Find the link using Selenium, along with any required cookies,
+ and pass it to an HTTP request library, such as REST Assured (Java), fetch (JavaScript), or libcurl (cross-platform).
+
+
+    5. HTTP response codes
+HTTP status codes are standard response codes given by website servers on the Internet.
+ The codes help identify the cause of the problem when a web page or other resource does not load properly.
+ In automated functional testing, checking the status code is not a particularly important detail of a test's failure;
+ the steps that preceded it are more important.
+
+It's better to keep API testing at this layer. WebDriver is not an API testing tool.
+ Hence, you can use libraries such as REST Assured (Java), fetch (JavaScript), and RestSharp (.NET)
+   
+
+     8. Barcode / QR Code Verification
+We cannot read barcodes or QR codes using Selenium Web Driver. Barcodes and QR codes can be automated, but in reality, do not serve the real-time purpose to automation.
+
+We have to integrate third-party APIs to the existing Selenium test scenarios for realizing automation of barcode/QR code verification.
+ . However, it’s best if the test is performed in a manual manner as it yields higher accuracy.
+  
+
+     22. Exploratory Testing
+The speciality of Exploratory Testing is completely based on human experience, instincts, and observation while exploring the app as an end-user.
+
+Ideally, Exploratory Testing should not be automated using any Selenium test scenarios or any other automation tool. 
+While exploratory testing is a recommended testing step in any release cycle, we should avoid trying to automate steps from Exploratory testing. 
+It is best to perform exploratory testing using a manual approach under any given situation.
+
+
+
+6. Automation is too expensive for small projects
+Not only do you have automation software to pay for, but you also have higher associated maintenance and management costs, due to script writing and rewriting, as well as set up and processing times.
+
+For long term projects and big products, the higher costs can be worth it. But for shorter, smaller projects it’s a monumental waste of both time and money.
+
+
+  10. Good testing is repeatable but also variable
+The most successful testing has a mix of two factors: repetition and variation. Automated testing is great for the continual checking process, but it’s just not enough. You also want variation, and some wild card use cases.
+
+Combined, these two factors give the highest chance of achieving full product coverage.
+
+      
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+Test automation has received much attention recently. A lot of developers and testers in today’s world prefer to seek the assistance of test automation to make 
+their lives easy. However, test automation does not have the ability to fully replace manual testing. 
+Therefore, we cannot assume that test automation is stealing the job of software testers out there in the world.
+
+
+ You can find a lot of other related situations in which test automation cannot replace manual testing. 
+The test areas associated with feelings of human beings hold a prominent place out of them.
+ It is the responsibility of a good tester in order to figure out the areas that cannot be automated and look for issues.
+ At the end of the day, software applications are being made for human beings who have particular thoughts and feelings. 
+Therefore, the software testers have the ability to test accordingly based on human thoughts. 
+You cannot expect this to be done from the computer and test automation process.
+
+
+
+
+
+
+
+
+Every day we see thousands of new products and apps in the market. A lot of testing procedures have to perform before releasing it to the public.
+ Automated testing can speed up testing procedures and can be seen as a replacement for manual testing. 
+But still, manual testing has a critical role in the Quality Assurance process. 
+By using only automated testing, testers will lose many opportunities to improve system quality. 
+Performing manual testing with automated testing will lead to much higher product quality and stability. The major reasons behind this are;
+
+
+
+   Cannot achieve 100% goals with automated testing:
+100% goals cannot be achieved by using automated testing because some tests cannot be automated straightforwardly like the background checking of a 
+window or dialog box. Automation script will have limited scope based on what is being tested or written in it which is no match with the human eye.
+ The human eye can identify potential issues in seconds. Things like exploratory testing, look and feel, user-related tests for example if the user wants to 
+see if he/she can perform a task easily or not, etc. should be performed manually.
+
+
+    Types of tests need to be performed manually:
+
+
+1.Subjective Validation:
+Subject validation protects the validity of words, statements, or initials. This also covers inspection and perceive testing. This is the stage where humans can quickly detect and provide feedback rather than the automated system that requires plenty of steps to write. So this type of testing is appreciated manually.
+
+
+2.New Functionalities:
+Performing automated testing for applications that are under-development is not a good technique. It will cost a lot of time and resources to keep the automation tests updated and maintained. Automation testing will frequently fail and need to update regularly due to the changes in applications according to new requirements.
+
+
+4.User Experience:
+Primarily, the success or negligence of an application depends on its usefulness. When there is a matter of user experience then nothing can compete with the human eye. It can detect any problem in seconds by looking at a picture like a language, resolution, endurance, and formatting, etc. While automated testing will require a huge amount of time. So, it is suggested to leave the user experience property of any system to the human eye rather than an automated system.
+
+ 5.Complex Functionality:
+Some modules have complex functionality that an automated system cannot perform effectively. So, it’s better to automate those manually like the case of Mobile device testing. Mobile device testing requires testing by leaving and reconnecting Wi-Fi, Run apps simultaneously, device authorization, receiving and making phone calls.
+
+
+6.Quality Control:
+If the overall quality of the finalized application needs to be tested, then it is preferred manually rather than automatically. Automation testing can only test specific output that is generated in the test case while the human can navigate the whole system and several types of workflow, happy and sad paths, success, and failure of certain criteria quickly.
+
+Automated systems are unable to generate original thought. They will perform only some specific tasks that are programmed. They also cannot generate effective feedback that a human user can provide. So, it’s suggested to perform Quality Control manually.
+
+
+8.Installation and setup testing:
+In installation and setup testing the system needs to test with different hardware and software such as loading CD-ROM, memory disks, and Tapes. Such types of systems also required manual testing.
+
+
+
+
+Conclusion:
+
+Today, testing is the most important part of software development. No software can remain the same at all. Certified testing sites and Quality assurance groups are a gateway to your product stability. There are many benefits to performing manual testing or automated testing. So, it’s important to consider both approaches while design your QA strategy. Does not matter how much-automated testing is evolved. There will always be a place of manual testing in software applications.

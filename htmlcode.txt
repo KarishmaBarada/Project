@@ -1,0 +1,837 @@
+<html>
+    <head>
+</head>
+<body>
+
+
+    <table cellpadding="2" width="20%"  align="center"
+       cellpadding="2">
+
+       <tr>
+           <td colspan=2>
+               <center><font size=4><b>Sign up form</b></font></center>
+               <form>
+                
+               </form>
+               </td>
+       </tr>
+       
+
+       <tr>
+           <td>Full Name</td>
+           <td><input type="text" name="textnames" id="=textname" size="30"></td>
+       </tr>
+             
+       <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" id="=email" size="30"></td>
+    </tr>
+    <tr>
+        <td>PersonalAddress</td>
+        <td><input type="text" name="PersonalAddress" id="=PersonalAddress" size="30"></td>
+    </tr>
+          <tr>
+              <td>Gender</td>
+              <td><input type="radio" name="gender" value="male" size="30">male
+                <input type="radio" name="gender" value="female" size="30">female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Mobile number</td>
+            <td><input type="number" name="mobile number" id="mobile number" size="30"></td>
+        </tr>
+          <tr>
+              <td>State</td>
+              <td><select name="state">
+                  <option value="-1" selected>select..</option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="gujarat">Gujarat</option>
+                  <option value="goa">Goa</option>
+                  <option value="Orissa">Orissa</option>
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="bhopal">Bhopal</option>
+              </select></td>
+          </tr>
+
+
+          <tr>
+            <td>city</td>
+            <td><select name="state">
+                <option value="-1" selected>select..</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="goa">Goa</option>
+                <option value="Orissa">Orissa</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="bhopal">Bhopal</option>
+            </select></td>
+        </tr>
+    
+
+        <tr>
+            <td>District</td>
+            <td><select name="District">
+                <option value="-1" selected>select..</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="goa">Goa</option>
+                <option value="Orissa">Orissa</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="bhopal">Bhopal</option>
+            </select></td>
+        </tr>
+           <tr>
+               <td><input type="reset" value="Reset"></td>
+               <td colspan="2"><input type="submit" value="submit form " onclick="abc()" /></td>
+           </tr>
+            
+    </table>
+</form>
+    </body>
+    <script src="resgistration.js"></script>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+</head>
+<body>
+
+
+    <table cellpadding="2" backgroung-color:#FFF width="20%"  align="center"
+       cellpadding="2">
+
+       <tr>
+           <td colspan=2>
+               <center><font size=4><b>Sign up form</b></font></center>
+               <form>
+                
+               </form>
+               </td>
+       </tr>
+       <form>
+
+       <tr>
+           <td>Full Name</td>
+           <td><input type="text" name="textnames" id="=textname" size="30" required></td>
+       </tr>
+             
+       <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" id="=email" size="30" required></td>
+    </tr>
+    <tr>
+        <td>PersonalAddress</td>
+        <td><input type="text" name="PersonalAddress" id="=PersonalAddress" size="30" required></td>
+    </tr>
+          <tr>
+              <td>Gender</td>
+              <td><input type="radio" name="gender" value="male" size="30" required>male
+                <input type="radio" name="gender" value="female" size="30" required>female
+            </td>
+
+            </tr>
+          </tr>
+
+          <tr>
+            <td>Mobile number</td>
+            <td><input type="number" name="mobile number" id="mobile number" size="30" required></td>
+        </tr>
+          <tr>
+              <td>State</td>
+              <td><select name="state">
+                  <option value="-1" selected required>select.. </option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="gujarat">Gujarat</option>
+                  <option value="goa">Goa</option>
+                  <option value="Orissa">Orissa</option>
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="bhopal">Bhopal</option>
+              </select></td>
+          </tr>
+
+
+          <tr>
+            <td>city</td>
+            <td><select name="state">
+                <option value="-1" selected>select..</option>
+                <option value="Bhubaneswar">Bhubaneswar</option>
+                <option value="Cuttack">Cuttack</option>
+                <option value="Rourkela">Rourkela</option>
+                <option value="Berhampur">Berhampur</option>
+                <option value="Baripada">Baripada</option>
+                <option value="Puri">Puri</option>
+            </select></td>
+        </tr>
+    
+
+        <tr>
+            <td>District</td>
+            <td><select name="District">
+                <option value="-1" selected>select..</option>
+                <option value="Khordha">Khordha</option>
+                <option value="Ganjam">Ganjam</option>
+                <option value="Sundargarh">Sundargarh</option>
+                <option value="Cuttack">Cuttack</option>
+                <option value="Mayurbhanj">Mayurbhanj</option>
+                <option value="Puri">Puri</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="textnames" id="=textname" size="30"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" id="password" size="30"></td>
+        </tr>
+        <tr>
+            <td>Re-type password</td>
+            <td><input type="password" name="Re-type password" id="Re-type password" size="30"></td>
+        </tr>
+           <tr>
+               <td><input type="reset" value="Reset"> </td>
+               <td colspan="2"><a href="registration2.html"><input type="submit" value="submit  " /></td> </a>
+               <td><a href="registration1.html"><input type="button" value="Back"></a>
+                
+            </td>
+           </tr>
+            
+    </table>
+</form>
+    </body>
+   
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="mb-3">
+                                @(Html.Kendo().TextBox()
+                            .Name("adrPincode")
+                            .Placeholder("Pincode")
+                            .HtmlAttributes(new { style = "width: 100%;background-color:#efefef;",id="adrPincode", required = "required", oninput = "getPincode()" })
+                         )
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             {
+    ViewBag.Title = "Signup";
+}
+<h2>Signup</h2>
+
+<link href="~/Content/Style/StyleSheet1.css" type="text/css" rel="stylesheet" />
+<hr>
+<div class="outer-div">
+    <div class="form-div">
+        <form class="form-contoll" method="post" action="Signup" autocomplete="off">
+
+            <h6 class="txtSignUp text-center mb-4"></h6>
+
+            <div class="form-boxes">
+                <div class="first-box boxes">
+                    <h6 class="txtSignUp mb-3 text-center">Personal information</h6>
+                    <div><input id="textbox" class=" k-textbox" style="width: 200px" autocomplete="new-password" placeholder="First Name" required></div>
+
+                    <div> <input id="textbox1" class=" k-textbox" style="width: 200px" placeholder="Last Name" autocomplete="new-password" required></div>
+
+
+                    <input id="datepicker" class="k-content size" placeholder="Dob" title="Dob" style="width: 200px" required />
+                    <div>
+                        <input id="phno" class="k-textbox size" type="number" placeholder="mobile" style="width: 200px" required />
+                    </div>
+                    <div class="k-form-field size">
+
+                        <input type="email" id="email" name="email" class="a1 k-textbox" autocomplete="new-password" placeholder="e.g. myname@example.net"
+                               required data-email-msg="Email format is not valid" style="width: 200px" />
+                    </div>
+                    <select id="dropdownlist">
+                        <option>Select Designation</option>
+                        <option>Manager</option>
+                        <option>Hr</option>
+                        <option>Jr.Devloper</option>
+                        <option>Sr.Devloper</option>
+                        <option>Accountant</option>
+                        <option>Others</option>
+                    </select>
+                    <div class="size">
+                        <input type="checkbox" name="gender" value="male" class="" /><label class="ml-2">Male</label>
+                        <input type="checkbox" name="gender" value="female" class="ml-3" /><label class="ml-2">Female</label>
+                    </div>
+                </div>
+                </div>
+            <div class="second-box boxes">
+                <h6 class="txtSignUp mb-3 text-center">Address</h6>
+                <div>
+                    <input id="textbox2" class="size k-textbox" autocomplete="new-password" placeholder="CurrentAddress" required>
+
+                </div><div>
+                    <input id="adrPincode" class="size k-textbox" type="number" placeholder="Pin-Code" style="width: 200px" required />
+                </div>
+                <div>
+                    <input id="adrCity" class="k-textbox size" autocomplete="new-password" placeholder="City" required>
+
+                </div>
+                <div>
+                    <input id="adrState" class="k-textbox size" autocomplete="new-password" placeholder="State" required>
+
+                </div>
+                <div>
+                    <input id="adrCountry" class="k-textbox size" autocomplete="new-password" placeholder="Country" required>
+
+                </div>
+
+            </div>
+
+
+    <div class="third-box boxes">
+        <h6 class="txtSignUp mb-3 text-center">Username and Password</h6>
+        <div>
+            <input id="textbox5" class="size k-textbox" autocomplete="new-password" placeholder="UserName" style="width:200px;" required>
+        </div>
+        <div>
+            <input type="password" class="size form-control k-textbox" id="txtNewPassword" placeholder="Create passward" name="pass" required>
+        </div>
+        <div>
+            <input type="password" class="size form-control k-textbox" id="txtConfirmPassword" placeholder="Confirm Passward" name="confpass" required>
+        </div>
+        </div>
+<div class="buttons">
+
+    <p>
+
+        @Html.ActionLink("Back", "Index", "", new { @class = "btn btn-primary btn-back" })
+        <input type="submit" class=" btn btn-primary btn-submit" />
+    </p>
+</div>
+        </form>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#dropdownlist").kendoDropDownList();
+        $("#textbox").kendoTextBox({
+            placeholder: "FirstName"
+        });
+        $("#textbox1").kendoTextBox({
+            placeholder: "LastName"
+        });
+        $(document).ready(function () {
+            $("#tb1").kendoTextBox({
+            });
+            $("#datepicker").kendoDatePicker();
+            $("#numeric").kendoNumericTextBox();
+        });
+        $("#textbox2").kendoTextBox({
+            placeholder: "Current Address"
+        });
+        function getPincode() {
+
+            var pincode = $('#adrPincode').val();
+
+            if (pincode == '') {
+                $('#adrCity').val('');
+                $('#adrState').val('');
+                $('#adrCountry').val('');
+            }
+            else {
+                $.ajax({
+                    url: '/Home/getPins',
+                    type: 'post',
+                    data: 'pincode=' + pincode,
+                    success: function (data) {
+
+                        var obj = JSON.parse(data);
+                        console.log(obj);
+                        var arrayObj = obj[0];
+                        var postOfficeObj = arrayObj.PostOffice[0];
+                        $('#adrCity').val(postOfficeObj.Block);
+                        $('#adrState').val(postOfficeObj.State);
+                        $('#adrCountry').val(postOfficeObj.Country);
+                    }
+                });
+            }
+        }
+    });
+
+</script>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+ <div class="form-boxes">
+        <div class="first-box boxes">
+            <h6 class="txtSignUp mb-3 text-center">Personal Information</h6>
+            <div class="mb-3">
+
+                <input id="textbox1" placeholder="FullName" style="width:200px;" />
+
+
+
+
+
+
+
+                <br />
+                <br />
+                <div id="example">
+                    <div class="demo-section k-content">
+                        <div> <input id="datepicker" value="10/10/2011" title="datepicker" style="width: 200px" /></div>
+                        <script>
+                            $(document).ready(function () {
+
+                                $("#datepicker").kendoDatePicker();
+
+                                $("#monthpicker").kendoDatePicker({
+
+                                    start: "year",
+
+
+                                    depth: "year",
+
+                                    format: "MMMM yyyy",
+
+
+                                    dateInput: true
+                                });
+                            });
+
+                        </script>
+                    </div>
+                    <br />
+                    <div>
+                        <input id="tel" pattern="\d{10}" type="tel" placeholder="Enter 10 digit number" style="width: 200px" required validationMessage="Enter 10 digit number" />
+                    </div>
+
+
+                    <br />
+
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="email" required data-email-msg="Email format is not valid" />
+                    </div>
+
+                    <br />
+
+                    <div class="mb-3">
+                        <select id="dropdownlist" style="width:200px">
+                            <option>select position</option>
+                            <option>Manager</option>
+                            <option>Hr</option>
+                            <option>Jr.Devloper</option>
+                            <option>Sr.Devloper</option>
+                            <option>Accountant</option>
+                        </select>
+
+
+                    </div>
+                    <br />
+
+                    <div class="size">
+                        <input type="checkbox" name="gender" value="male" class="ml-3" /><label class="ml-2">Male</label>
+                        <input type="checkbox" name="gender" value="female" class="ml-3" /><label class="ml-2">Female</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--first-box-->
+
+    <div class="form-boxes">
+        <div class="second-box boxes">
+            <h6 class="txtSignUp mb-3 text-center">Address</h6>
+
+            <input id="textbox7" placeholder="Current Address" style="width:200px;" required />
+            <br />
+            <br />
+            <input id="textbox2" placeholder="pincode" style="width:200px" required />
+
+
+            <br />
+            <br />
+
+            <input id="textbox" placeholder="city/town" style="width:200px" required />
+
+            <br />
+            <br />
+            <input id="textbox" placeholder="state" style="width:200px" required />
+
+
+            <br />
+            <br />
+            <input id="textbox" placeholder="country" style="width:200px" required />
+
+
+        </div>
+    </div>
+    <br />
+    <br />
+    <!--second-box-->
+
+
+    <div class="third-box boxes">
+        <h6 class="txtSignUp mb-3 text-center">Username & Password</h6>
+
+        <input id="textbox" placeholder="username" style="width:200px" required />
+
+
+
+
+        <br />
+        <br />
+
+        <input id="maskedtextbox1" type="password" placeholder="password" style="width:200px" required />
+
+        <span toggle="maskedtextbox" class="k-icon k-i-lock toggle-password"></span>
+
+
+        <br />
+        <br />
+
+        <input id="maskedtextbox" type="password" placeholder="Re-password" style="width:200px" required />
+
+        <span toggle="maskedtextbox" class="k-icon k-i-lock toggle-password"></span>
+
+
+
+
+
+    </div>
+
+
+
+    <div>
+
+        <div class="buttons">
+
+            <p>
+
+                @Html.ActionLink("Back", "Index", "", new { @class = "btn btn-primary btn-back" })
+                <input type="submit" class=" btn btn-primary btn-back" />
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+<script>
+
+    $(document).ready(function () {
+        $("#textbox1").kendoTextBox({
+            placeholder: "Name..."
+        });
+
+        {
+            $("#textbox7").kendoTextBox({
+                placeholder: "Name..."
+            });
+
+            $(document).ready(function () {
+                $("#dropdownlist").kendoDropDownList();
+            });
+
+            $("#numeric").kendoNumericTextBox();
+            $(function () {
+                $("#panelbar").kendoPanelBar();
+            });
+
+            $(document).ready(function () {
+                $("#textbox3").kendoTextBox({
+
+                    placeholder: "city/town"
+                });
+            });
+            $(document).ready(function () {
+                $("#textbox4").kendoTextBox({
+
+                    placeholder: "city/town"
+                });
+            });
+
+            $(document).ready(function () {
+                $("#textbox5").kendoTextBox({
+
+                    placeholder: "Name..."
+                });
+            });
+            $(document).ready(function () {
+                $("#textbox6").kendoTextBox({
+                    value: "fullname",
+                    placeholder: "Name..."
+                });
+            });
+            $(document).ready(function () {
+                $("#textbox").kendoTextBox({
+                    value: "username",
+                    placeholder: "username"
+                });
+            });
+            $(document).ready(function () {
+                $("#maskedtextbox").kendoMaskedTextBox({
+
+                });
+
+
+                $(".toggle-password").click(function () {
+
+                    $(this).toggleClass("k-i-lock k-i-unlock");
+                    var input = $("[id='" + $(this).attr("toggle") + "']");
+
+                    if (input.attr("type") === "password") {
+                        input.attr("type", "text");
+                    } else {
+                        input.attr("type", "password");
+                    }
+                });
+            });
+            $(document).ready(function () {
+                $("#maskedtextbox").kendoMaskedTextBox({
+
+                });
+
+
+                $(".toggle-password").click(function () {
+
+                    $(this).toggleClass("k-i-lock k-i-unlock");
+                    var input = $("[id='" + $(this).attr("toggle") + "']");
+
+                    if (input.attr("type") === "password") {
+                        input.attr("type", "text");
+                    } else {
+                        input.attr("type", "password");
+                    }
+                });
+            });
+            
+
+            $(document).ready(function () {
+                function getPincode() {
+
+                    var pincode = $('#adrPincode').val();
+
+                    if (pincode == '') {
+                        $('#adrCity').val('');
+                        $('#adrState').val('');
+                        $('#adrCountry').val('');
+                    }
+                    else {
+                        $.ajax({
+                            url: '/Home/getPins',
+                            type: 'post',
+                            data: 'pincode=' + pincode,
+                            success: function (data) {
+
+                                var obj = JSON.parse(data);
+                                console.log(obj);
+                                var arrayObj = obj[0];
+                                var postOfficeObj = arrayObj.PostOffice[0];
+                                $('#adrCity').val(postOfficeObj.Block);
+                                $('#adrState').val(postOfficeObj.State);
+                                $('#adrCountry').val(postOfficeObj.Country);
+                            }
+                        });
+                    }
+                }
+
+
+            });
+
+</script>
+----------------------------------------------------------------------------------------------
+
+
+
+   function BtnSubmit() {
+        console.log("btn submit");
+        var fullname = $("#textbox").val();
+        var designation = $("#dropdownlist1").val();
+        var dob = $("#datepicker").val();
+        var mobile = $("#phno").val();
+        var email = $("#email").val();
+        var gender = $("#signupform input[type='radio']:checked").val();
+        var currentaddress = $("#textbox2").val();
+        var pincode = $("#adrPincode").val();
+        var city = $("#adrCity").val();
+        var state = $("#adrState").val();
+        var country = $("#adrCountry").val();
+        var username = $("#textbox").val();
+        var password = $("#txtNewPassword").val();
+        var repassword = $("#txtConformPassword").val();
+        console.log(gender);
+        var obj = {
+            Fullname: fullname,
+            Designation: designation,
+            Dob: dob,
+            MobileNo: mobile,
+            Email: email,
+            Gender: gender,
+            CurrentAddress: currentaddress,
+            Pincode: pincode,
+            City: city,
+            State: state,
+            Country: country,
+            Username: username,
+            Password: password
+        }
+       
+            SubmitData(obj);
+        
+    }
+
+    function SubmitData(obj) {
+        console.log("ajax");
+        $.ajax({
+            url: "/Home/Signup",
+            method: "POST",
+            data: obj,
+            success: function (data) {
+                console.log(data);
+                alert("Resgistration success");
+              
+            }
+        });
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input type="button" id="btnSave" onclick="BtnSubmit()" class=" btn btn-primary btn-submit" value="Submit"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       @Html.ActionLink("Back", "Index", "", new { @class = "btn btn-primary btn-back" })
+            <input type="submit" class=" btn btn-primary btn-submit" />
